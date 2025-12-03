@@ -1,0 +1,14 @@
+.git/
+.gitignore
+.DS_Store
+node_modules/
+*.log
+coverage/
+.env
+.env.local
+tests/
+__tests__/
+*.test.js
+*.spec.js
+.github/
+demo/

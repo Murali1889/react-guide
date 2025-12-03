@@ -1,0 +1,45 @@
+{
+  "name": "react-guide",
+  "version": "1.0.0",
+  "description": "A lightweight React tour/guide library for creating interactive product tours",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "tour",
+    "guide",
+    "onboarding",
+    "walkthrough",
+    "tooltip",
+    "spotlight"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murali1889/react-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Murali1889/react-guide/issues"
+  },
+  "homepage": "https://github.com/Murali1889/react-guide#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ]
+}
