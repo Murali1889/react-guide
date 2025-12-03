@@ -224,7 +224,7 @@ The component comes with built-in styles. The tooltip uses a clean, modern desig
 
 ## Browser Support
 
-React Guide works in all modern browsers:
+Mursa Guide works in all modern browsers:
 
 - Chrome
 - Firefox
