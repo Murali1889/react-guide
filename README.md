@@ -1,4 +1,4 @@
-# React Guide
+# Mursa Guide
 
 A lightweight, customizable React tour/guide library for creating interactive product tours and onboarding experiences.
 
@@ -16,19 +16,19 @@ A lightweight, customizable React tour/guide library for creating interactive pr
 ## Installation
 
 ```bash
-npm install react-guide
+npm install mursa-guide
 ```
 
 or
 
 ```bash
-yarn add react-guide
+yarn add mursa-guide
 ```
 
 ## Quick Start
 
 ```jsx
-import { ReactGuide } from 'react-guide'
+import { ReactGuide } from 'mursa-guide'
 import { useState } from 'react'
 
 const steps = [
