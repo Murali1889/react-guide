@@ -24,7 +24,7 @@ function Home({ onStartTour }) {
         </a>
       </div>
 
-      <h1 id="main-heading">React Guide Demo</h1>
+      <h1 id="main-heading">Mursa Guide Demo</h1>
 
       <div className="card">
         <button id="counter-btn" onClick={() => setCount((count) => count + 1)}>
@@ -57,7 +57,7 @@ function Home({ onStartTour }) {
       </section>
 
       <p className="read-the-docs">
-        Click "Start Tour" to see React Guide in action!
+        Click "Start Tour" to see Mursa Guide in action!
       </p>
     </main>
   )

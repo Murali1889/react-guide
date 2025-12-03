@@ -33,7 +33,7 @@ const crossPageTourSteps = [
       { id: 'main-heading' }
     ],
     title: 'Multiple Elements',
-    content: 'React Guide can highlight multiple elements at once! Here we\'re showing both the heading and the counter button.'
+    content: 'Mursa Guide can highlight multiple elements at once! Here we\'re showing both the heading and the counter button.'
   },
   {
     step: 4,
@@ -59,7 +59,7 @@ const crossPageTourSteps = [
       { id: 'what-is-it' },
       { id: 'features-list' }
     ],
-    title: 'Learn About React Guide',
+    title: 'Learn About Mursa Guide',
     content: 'Here you can see both the introduction and features sections highlighted together.'
   },
   {
@@ -67,7 +67,7 @@ const crossPageTourSteps = [
     path: '/about',
     id: 'how-to-use',
     title: 'Usage Example',
-    content: 'Check out how easy it is to implement React Guide in your project.',
+    content: 'Check out how easy it is to implement Mursa Guide in your project.',
     nextLabel: 'Go to Settings',
     nextPath: '/settings'
   },
@@ -94,7 +94,7 @@ const crossPageTourSteps = [
     path: '/settings',
     id: 'save-settings',
     title: 'Tour Complete!',
-    content: 'That\'s it! You\'ve seen how React Guide handles cross-page tours and multiple highlights.',
+    content: 'That\'s it! You\'ve seen how Mursa Guide handles cross-page tours and multiple highlights.',
     nextLabel: 'Complete Tour',
     onNext: () => console.log('Tour completed successfully!')
   }
@@ -151,7 +151,7 @@ const aboutSteps = [
     step: 3,
     id: 'how-to-use',
     title: 'Code Example',
-    content: 'See how to implement React Guide in your project.'
+    content: 'See how to implement Mursa Guide in your project.'
   }
 ]
 
@@ -258,7 +258,7 @@ function AppContent() {
         <Route path="/settings" element={<Settings onStartTour={() => handleStartTour('settings')} />} />
       </Routes>
 
-      {/* React Guide Component */}
+      {/* Mursa Guide Component */}
       <ReactGuide
         steps={getSteps()}
         isOpen={isTourOpen}

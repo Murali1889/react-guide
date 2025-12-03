@@ -1,6 +1,6 @@
 {
   "name": "mursa-guide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight React tour/guide library for creating interactive product tours",
   "type": "module",
   "main": "index.js",

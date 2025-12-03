@@ -11,13 +11,13 @@ function About({ onStartTour }) {
         </button>
       </header>
 
-      <h1 id="about-heading">About React Guide</h1>
+      <h1 id="about-heading">About Mursa Guide</h1>
 
       <div className="about-container">
         <section className="about-section" id="what-is-it">
-          <h2>What is React Guide?</h2>
+          <h2>What is Mursa Guide?</h2>
           <p>
-            React Guide is a lightweight, customizable tour/guide component for React applications.
+            Mursa Guide is a lightweight, customizable tour/guide component for React applications.
             It helps you create interactive walkthroughs to onboard users and showcase features.
           </p>
         </section>
@@ -37,7 +37,7 @@ function About({ onStartTour }) {
         <section className="about-section" id="how-to-use">
           <h2>How to Use</h2>
           <pre className="code-block">
-{`import { ReactGuide } from 'react-guide'
+{`import { ReactGuide } from 'mursa-guide'
 
 const steps = [
   { step: 1, id: 'element-id', content: 'Description' },
