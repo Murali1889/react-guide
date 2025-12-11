@@ -387,7 +387,7 @@ function Overlay({ targetRect, isVisible, isClickDisabled }) {
           height="100%"
           fill="rgba(0, 0, 0, 0.5)"
           mask="url(#spotlight-mask)"
-          style={{ transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)' }}
+          style={{ transition: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)' }}
         />
       </svg>
 
@@ -407,7 +407,7 @@ function Overlay({ targetRect, isVisible, isClickDisabled }) {
               borderRadius: '8px',
               boxShadow: '0 0 0 4px rgba(59, 130, 246, 0.2)',
               pointerEvents: 'none',
-              transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+              transition: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
             }}
           />
         ))
@@ -424,7 +424,7 @@ function Overlay({ targetRect, isVisible, isClickDisabled }) {
             borderRadius: '8px',
             boxShadow: '0 0 0 4px rgba(59, 130, 246, 0.2)',
             pointerEvents: 'none',
-            transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+            transition: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
           }}
         />
       )}
@@ -445,7 +445,7 @@ function Overlay({ targetRect, isVisible, isClickDisabled }) {
                 pointerEvents: 'auto',
                 cursor: 'not-allowed',
                 zIndex: 9999,
-                transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+                transition: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
               }}
               onClick={(e) => {
                 e.preventDefault();
@@ -465,7 +465,7 @@ function Overlay({ targetRect, isVisible, isClickDisabled }) {
               pointerEvents: 'auto',
               cursor: 'not-allowed',
               zIndex: 9999,
-              transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+              transition: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
             }}
             onClick={(e) => {
               e.preventDefault();
@@ -703,7 +703,7 @@ function Arrow({ targetRect, position, isVisible }) {
         transform: `translate(-50%, -50%) rotate(${rotation}deg)`,
         zIndex: 10000,
         pointerEvents: 'none',
-        transition: 'top 0.4s cubic-bezier(0.4, 0, 0.2, 1), left 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+        transition: 'top 0.15s cubic-bezier(0.4, 0, 0.2, 1), left 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
       }}
     >
       <svg width={arrowSize * 2} height={arrowSize * 2} viewBox="0 0 24 24">
@@ -750,7 +750,7 @@ function Tooltip({
         borderRadius: '16px',
         boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15), 0 8px 25px rgba(0, 0, 0, 0.1)',
         padding: '24px',
-        transition: 'top 0.4s cubic-bezier(0.4, 0, 0.2, 1), left 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+        transition: 'top 0.15s cubic-bezier(0.4, 0, 0.2, 1), left 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
       }}
     >
       {step.title && (
@@ -805,7 +805,7 @@ function Tooltip({
               width: `${((currentStepIndex + 1) / totalSteps) * 100}%`,
               backgroundColor: '#3b82f6',
               borderRadius: '2px',
-              transition: 'width 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+              transition: 'width 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
             }}
           />
         </div>
